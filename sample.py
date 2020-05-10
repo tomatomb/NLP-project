@@ -19,10 +19,10 @@ think_subject function will be get the random quiz word
 def think_animal():
     global myword
     animals_type=['mammals','amphibians','birds'] #'fish' 'invertebrates' 'reptiles' will be added
-    animals_dict={"mammals":['african elemphant','horse','red fox','cheetah','giraffe','koala','jaguar','arctic fox','bengal tiger','giant panda', 'polar bear'],
+    animals_dict={"mammals":['african elephant','horse','red fox','cheetah','giraffe','koala','jaguar','arctic fox','bengal tiger','giant panda', 'polar bear'],
                   "amphibians":['green eyed tree frog','cane toad','spotted salamander'],
                   "fish":[],
-                  "birds": ['bald eagle','house sparrow','america crow','rock pigeon'],
+                  "birds": ['bald eagle','house sparrow','american crow','rock pigeon'],
                   "invertebrates":[],
                   "reptiles":[]}
     rand_type=animals_type[random.randint(0,len(animals_type)-1)]
